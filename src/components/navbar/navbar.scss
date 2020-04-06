@@ -1,0 +1,94 @@
+@import "../../index.scss";
+
+.navbar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #000;
+  display: grid;
+  grid-template-columns: 3fr 4fr 1fr;
+  a {
+    align-items: center;
+    text-decoration: none;
+  }
+}
+
+.nav-links {
+  font-size: 1.2rem;
+  list-style-type: none;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  padding: 0.4rem 0.2rem;
+  transition: color 0.2s linear;
+  &:hover {
+    color: $primaryColor;
+  }
+}
+
+#menu {
+  display: none;
+}
+
+.github-btn {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.6rem;
+  background: transparent;
+  transition: all 0.2s linear;
+  &:hover {
+    background: white;
+    color: #000;
+    cursor: pointer;
+  }
+}
+
+.menu-toggle {
+  color: white;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  background: transparent;
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.github-text {
+  display: none;
+}
+
+.menu-btn {
+  text-align: right;
+}
+
+@media screen and (min-width: 640px) {
+  .nav-links {
+    font-size: 1rem;
+  }
+  .navbar {
+    grid-template-columns: 2fr 3fr;
+  }
+  #menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  .github-text {
+    display: inline;
+  }
+  .github-icon {
+    margin-right: 0.5rem;
+  }
+  .github-btn {
+    font-size: 1rem;
+  }
+}
