@@ -14,7 +14,11 @@ export class Navbar extends Component {
   render() {
     return (
       <nav className="navbar">
-        <a href="https://github.com/karn21" target="_blank">
+        <a
+          href="https://github.com/karn21"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="github-btn">
             <i className="fab fa-github github-icon"></i>
             <span className="github-text">Github Profile</span>
