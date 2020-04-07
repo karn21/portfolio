@@ -56,7 +56,7 @@ export class Navbar extends Component {
 
         <ul className="nav-links">
           <div id="menu" style={{ display: "none" }}>
-            <a href="#">
+            <a href="#education">
               <li className="nav-link">Education</li>
             </a>
             <a href="#">

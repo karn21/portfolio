@@ -1,4 +1,4 @@
-$primaryColor: #f1c40f;
+$primaryColor: #f5cd79;
 $blackColor: #2f3640;
 $p-font-sizes: (
   null: 15px,
@@ -15,6 +15,7 @@ $p-font-sizes: (
 
 html {
   font-size: 15px;
+  scroll-behavior: smooth;
 }
 
 body {

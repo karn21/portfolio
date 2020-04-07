@@ -35,7 +35,6 @@ header {
   padding: 1rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.3rem;
-  text-align: justify;
   line-height: 2.5rem;
   font-weight: 300;
   vertical-align: middle;
@@ -44,6 +43,7 @@ header {
   }
   h1 {
     font-size: 3rem;
+    line-height: 3rem;
   }
   h1,
   h2 {
@@ -53,7 +53,7 @@ header {
   }
 }
 
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 800px) {
   header {
     section {
       display: grid;
@@ -64,7 +64,7 @@ header {
   }
   .avatar-container {
     img {
-      margin: 25% auto 0 auto;
+      margin: 5rem auto 0 auto;
     }
   }
 }

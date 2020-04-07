@@ -7,7 +7,6 @@ function Header() {
       <section>
         <div className="avatar-container">
           <img
-            class=""
             src="https://avatars1.githubusercontent.com/u/50626492?v=4"
             alt=""
           />
@@ -18,8 +17,7 @@ function Header() {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
           nobis distinctio impedit possimus sed expedita vel aperiam, quas
           libero, eos qui voluptas dolorem. Sunt ipsum a provident eligendi
-          minima facilis optio maiores harum, obcaecati corrupti?minima facilis
-          optio maiores harum, obcaecati corrupti?
+          minima facilis optio maiores harum, obcaecati corrupti
         </div>
       </section>
     </header>
