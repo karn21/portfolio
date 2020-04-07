@@ -27,10 +27,6 @@
   }
 }
 
-#menu {
-  display: none;
-}
-
 .github-btn {
   text-decoration: none;
   font-size: 2rem;
@@ -55,6 +51,16 @@
   padding: 0.3rem 1rem;
   border-radius: 0.5rem;
   align-items: center;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  &:active {
+    background-color: white;
+    color: black;
+  }
+  &:active,
+  &:focus {
+    outline: none;
+  }
 }
 
 .github-text {
@@ -73,7 +79,7 @@
     grid-template-columns: 2fr 3fr;
   }
   #menu {
-    display: grid;
+    display: grid !important;
     grid-template-columns: repeat(4, 1fr);
   }
   .menu-btn {
