@@ -19,7 +19,7 @@ export class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar">
+      <nav className="navbar" id="navbar">
         <div>
           <a
             href="https://github.com/karn21"

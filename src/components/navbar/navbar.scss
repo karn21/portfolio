@@ -6,6 +6,10 @@
   background-color: #000;
   display: grid;
   grid-template-columns: 3fr 4fr 1fr;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
   a {
     align-items: center;
     text-decoration: none;
@@ -31,9 +35,10 @@
   text-decoration: none;
   font-size: 2rem;
   color: white;
-  border: 1px solid white;
+  border: none;
+  // border: 1px solid white;
   border-radius: 0.3rem;
-  padding: 0.6rem 0.6rem;
+  padding: 0.3rem 0.8rem;
   background: transparent;
   transition: all 0.2s linear;
   &:hover {
@@ -95,6 +100,8 @@
     margin-right: 0.5rem;
   }
   .github-btn {
+    border: 1px solid white;
+    padding: 0.6rem 0.6rem;
     font-size: 1rem;
   }
 }
