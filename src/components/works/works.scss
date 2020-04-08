@@ -1,1 +1,115 @@
 @import "../../index.scss";
+
+.work-card {
+  margin: 5rem 10vw;
+  width: 80vw;
+  border: 0.1rem solid rgb(196, 196, 196);
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 1.5rem #e5e5e5;
+  &:hover {
+    box-shadow: 0.5rem 0.5rem 1.5rem #b5b5b5;
+  }
+  &:hover img {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.work-card-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  overflow: hidden;
+  img {
+    opacity: 0.9;
+    width: 100%;
+    border-radius: 0.5rem 0;
+    transform: scale(1.1);
+    transition: all 0.4s linear;
+  }
+}
+
+.content {
+  padding: 1rem;
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1rem 0;
+  }
+  p {
+    font-size: 1rem;
+    word-spacing: 0.3rem;
+    line-height: 1.5rem;
+  }
+  .work-card-footer {
+    padding: 1rem 0;
+  }
+  .work-card-tags {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.tag {
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.react-tag {
+  background-color: #61dbfb;
+}
+
+.html-tag {
+  background-color: #e44d26;
+}
+
+.css-tag {
+  background-color: #1572b6;
+}
+
+.django-tag {
+  background-color: #092e21;
+}
+
+.javascript-tag {
+  background-color: #dab92d;
+}
+
+.bootstrap-tag {
+  background-color: #553a7d;
+}
+
+@media screen and (min-width: 740px) {
+  .work-card {
+    width: 41vw;
+    margin: 4vw;
+  }
+  #works {
+    article {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  #works {
+    article {
+      display: block;
+    }
+  }
+  .work-card {
+    width: 70vw;
+    margin: 5rem 15vw;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .work-card-top {
+    img {
+      height: 100%;
+    }
+  }
+}

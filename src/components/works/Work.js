@@ -1,14 +1,38 @@
 import React from "react";
 
-function Work() {
+function Work(props) {
+  const { project } = props;
   return (
     <div className="work-card">
-      <div className="work-card-top"></div>
-      <div className="work-card-tags"></div>
-      <div>Project Name</div>
-      <div className="work-card-footer">
-        <button className="primary-btn">View Project</button>
-        <button className="ghost-btn">View Code</button>
+      <div className="work-card-top">
+        <img src={project.cover_img} alt="" />
+      </div>
+      <div className="content">
+        <div className="work-card-tags">
+          {project.tags.map((tag) => (
+            <span key={tag} className={`tag ${tag}-tag`}>
+              {tag}
+            </span>
+          ))}
+        </div>
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
+        <div className="work-card-footer">
+          <a
+            href={project.project_link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="primary-btn">View Project</button>
+          </a>
+          <a
+            href={project.github_link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="ghost-btn">View Code</button>
+          </a>
+        </div>
       </div>
     </div>
   );

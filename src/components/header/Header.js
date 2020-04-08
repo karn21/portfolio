@@ -13,11 +13,10 @@ function Header() {
         </div>
         <div className="bio">
           <h2>"Hello I am</h2>
-          <h1> Karan Maurya!"</h1>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-          nobis distinctio impedit possimus sed expedita vel aperiam, quas
-          libero, eos qui voluptas dolorem. Sunt ipsum a provident eligendi
-          minima facilis optio maiores harum, obcaecati corrupti
+          <h1> Karan Maurya!"</h1>I am a student of B.Tech[CSE] in NIT Jaipur. I
+          am interested in Full Stack Development so I have been working on
+          Django and React, the best of both sides. I have ample experience with
+          these technologies and looking forward for some great opportunities.
         </div>
       </section>
     </header>

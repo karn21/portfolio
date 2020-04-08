@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import "./works.scss";
 import Work from "./Work";
+import { projects } from "./WorkData";
 
 export class Works extends Component {
+  state = {
+    projects: projects,
+  };
   render() {
     return (
       <section id="works">
@@ -11,7 +15,9 @@ export class Works extends Component {
           <hr />
         </div>
         <article>
-          <Work></Work>
+          {this.state.projects.map((project) => (
+            <Work key={project.id} project={project}></Work>
+          ))}
         </article>
       </section>
     );
