@@ -1,0 +1,51 @@
+@import "../../index.scss";
+
+#skills {
+  background-color: #f8f8f8;
+  article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.skill {
+  margin: 1rem;
+  padding: 0.5rem;
+  &:hover .img-container {
+    img {
+      transform: scale(1.2);
+    }
+  }
+}
+.img-container {
+  cursor: pointer;
+  text-align: center;
+  img {
+    height: 5rem;
+    transition: all 0.2s linear;
+  }
+}
+.label {
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  h5 {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  #skills {
+    article {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #skills {
+    article {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+}
