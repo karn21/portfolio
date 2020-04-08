@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c95dd85a.chunk.css",
-    "main.js": "/portfolio/static/js/main.1bf689e6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1bf689e6.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.543b9d8f.chunk.css",
+    "main.js": "/portfolio/static/js/main.b09d10b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b09d10b1.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
-    "static/js/2.04926557.chunk.js": "/portfolio/static/js/2.04926557.chunk.js",
-    "static/js/2.04926557.chunk.js.map": "/portfolio/static/js/2.04926557.chunk.js.map",
+    "static/js/2.00fe4ea5.chunk.js": "/portfolio/static/js/2.00fe4ea5.chunk.js",
+    "static/js/2.00fe4ea5.chunk.js.map": "/portfolio/static/js/2.00fe4ea5.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.49988ee4e8c2a776d5896af7b0c30e6f.js": "/portfolio/precache-manifest.49988ee4e8c2a776d5896af7b0c30e6f.js",
+    "precache-manifest.716be0624a5c327bf109c554bf33e524.js": "/portfolio/precache-manifest.716be0624a5c327bf109c554bf33e524.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.c95dd85a.chunk.css.map": "/portfolio/static/css/main.c95dd85a.chunk.css.map",
-    "static/js/2.04926557.chunk.js.LICENSE.txt": "/portfolio/static/js/2.04926557.chunk.js.LICENSE.txt",
+    "static/css/main.543b9d8f.chunk.css.map": "/portfolio/static/css/main.543b9d8f.chunk.css.map",
+    "static/js/2.00fe4ea5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.00fe4ea5.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.9781c375.png",
+    "static/media/css.png": "/portfolio/static/media/css.e5ed5939.png",
     "static/media/header.scss": "/portfolio/static/media/header.31a16f84.jpg",
+    "static/media/html.png": "/portfolio/static/media/html.3c5c603f.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.992f6eee.png",
     "static/media/mnit-logo.png": "/portfolio/static/media/mnit-logo.c7310d51.png",
+    "static/media/react.png": "/portfolio/static/media/react.e699ace5.png",
     "static/media/school-logo.png": "/portfolio/static/media/school-logo.912db7a6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b37861ed.js",
-    "static/js/2.04926557.chunk.js",
-    "static/css/main.c95dd85a.chunk.css",
-    "static/js/main.1bf689e6.chunk.js"
+    "static/js/2.00fe4ea5.chunk.js",
+    "static/css/main.543b9d8f.chunk.css",
+    "static/js/main.b09d10b1.chunk.js"
   ]
 }
