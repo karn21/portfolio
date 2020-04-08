@@ -45,7 +45,7 @@
 @media screen and (min-width: 1024px) {
   #skills {
     article {
-      grid-template-columns: repeat(6, 1fr);
+      margin: auto 5rem;
     }
   }
 }

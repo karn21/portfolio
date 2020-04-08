@@ -1,4 +1,5 @@
-$primaryColor: #f5cd79;
+$primaryColor: #5758bb;
+$hoverColor: #3e40a5;
 $blackColor: #2f3640;
 $p-font-sizes: (
   null: 15px,
@@ -38,8 +39,50 @@ body {
     width: 40%;
     margin-left: 30%;
     color: $primaryColor;
+    background-color: $primaryColor;
     border-color: $primaryColor;
     border-style: solid;
+  }
+}
+
+.primary-btn {
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  border: 0.1rem solid $primaryColor;
+  border-radius: 1.5rem;
+  background-color: $primaryColor;
+  margin: 0.2rem;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1rem #e5e5e5;
+  transition: all 0.3s linear;
+  color: #fff;
+  &:hover {
+    background-color: $hoverColor;
+    box-shadow: 0.2rem 0.2rem 1rem #c9c9c9;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.ghost-btn {
+  color: $primaryColor;
+  padding: 0.4rem 1rem;
+  border-radius: 1.5rem;
+  font-size: 0.9rem;
+  border: 0.1rem solid $primaryColor;
+  margin: 0.2rem;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 1rem #e5e5e5;
+  transition: all 0.3s linear;
+  &:hover {
+    color: #fff;
+    background-color: $hoverColor;
+    border-color: $hoverColor;
+    box-shadow: 0.2rem 0.2rem 1rem #c9c9c9;
+  }
+  &:focus {
+    outline: none;
   }
 }
 
