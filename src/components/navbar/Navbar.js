@@ -65,7 +65,7 @@ export class Navbar extends Component {
             <a href="#works">
               <li className="nav-link">My Works</li>
             </a>
-            <a href="#about">
+            <a href="#contact">
               <li className="nav-link">Contact</li>
             </a>
           </div>

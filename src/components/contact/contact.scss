@@ -1,52 +1,56 @@
 @import "../../index.scss";
 
-#skills {
+#contact {
   background-color: #f8f8f8;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
   article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.skill {
-  margin: 1rem;
-  padding: 0.5rem;
-  &:hover .img-container {
-    img {
-      transform: scale(1.2);
+.contacts {
+  margin: 0 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contact {
+  .icon-container {
+    font-size: 4rem;
+    color: #686868;
+    text-align: center;
+    &:hover i {
+      font-size: 4.6rem;
+    }
+    &:hover .fa-twitter {
+      color: #00acee;
+    }
+    &:hover .fa-envelope {
+      color: #d44638;
+    }
+    &:hover .fa-instagram {
+      color: #f77737;
+    }
+    i {
+      transition: all 0.2s linear;
     }
   }
-}
-.img-container {
-  cursor: pointer;
-  text-align: center;
-  img {
-    height: 6rem;
-    transition: all 0.2s linear;
+
+  a {
+    text-decoration: none;
+    color: black;
   }
 }
+
 .label {
   text-align: center;
   cursor: pointer;
-  text-transform: uppercase;
+  text-transform: capitalize;
   h5 {
     font-size: 1rem;
     padding: 0.8rem;
-  }
-}
-
-@media screen and (min-width: 640px) {
-  #skills {
-    article {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-}
-
-@media screen and (min-width: 860px) {
-  #skills {
-    article {
-      margin: auto 6rem;
-    }
+    font-weight: 400;
   }
 }

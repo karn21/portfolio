@@ -3,6 +3,7 @@ import weather from "./img/weather.png";
 import colaboard from "./img/colaboard.png";
 import respo from "./img/respo.png";
 import portfolio from "./img/portfolio.png";
+import card from "./img/card.png";
 
 export const projects = [
   {
@@ -54,5 +55,15 @@ export const projects = [
     github_link: "https://github.com/karn21/portfolio",
     cover_img: portfolio,
     project_link: "https://karn21.github.io/portfolio/",
+  },
+  {
+    id: 6,
+    title: "Github Profile Card",
+    description:
+      "A web app which generates your github profile card using github API. A simple project to get information for any github user.",
+    tags: ["html", "css", "react"],
+    github_link: "https://github.com/karn21/github-card",
+    cover_img: card,
+    project_link: "https://github-profile-card.netlify.com/",
   },
 ];
