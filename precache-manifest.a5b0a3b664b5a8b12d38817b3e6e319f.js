@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8438db33905499283d0a1d4205dc6adb",
+    "revision": "b8b2fe7d901f24c2fababce00d282edc",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "bdda2cad37aae9726076",
-    "url": "/portfolio/static/css/main.8dfbafe4.chunk.css"
+    "revision": "4b1d3c82ceb39d2aef02",
+    "url": "/portfolio/static/css/main.d669484e.chunk.css"
   },
   {
-    "revision": "2d04fda80db93ee33f7a",
-    "url": "/portfolio/static/js/2.00fe4ea5.chunk.js"
+    "revision": "aa605eda848429352702",
+    "url": "/portfolio/static/js/2.15c8e3d5.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.00fe4ea5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.15c8e3d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bdda2cad37aae9726076",
-    "url": "/portfolio/static/js/main.0d9c53f1.chunk.js"
+    "revision": "4b1d3c82ceb39d2aef02",
+    "url": "/portfolio/static/js/main.08500f89.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9781c375c188995219c03ca0772683e6",
     "url": "/portfolio/static/media/bootstrap.9781c375.png"
+  },
+  {
+    "revision": "a3d0dc0868de340e7c2bf78d372cbb12",
+    "url": "/portfolio/static/media/card.a3d0dc08.png"
+  },
+  {
+    "revision": "25c7e869d2d756737bd5a48125671c38",
+    "url": "/portfolio/static/media/colaboard.25c7e869.png"
   },
   {
     "revision": "e5ed59395d669a979459332bee9c5c09",
@@ -48,11 +56,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/mnit-logo.c7310d51.png"
   },
   {
+    "revision": "9fb018d6f3f8641f12e22ede9706b9c8",
+    "url": "/portfolio/static/media/portfolio.9fb018d6.png"
+  },
+  {
     "revision": "e699ace51c9f99f313a3e62481dc7338",
     "url": "/portfolio/static/media/react.e699ace5.png"
   },
   {
+    "revision": "552292545a5e6a12eca54182f907d22f",
+    "url": "/portfolio/static/media/respo.55229254.png"
+  },
+  {
     "revision": "912db7a62e8b914dfdd98bbc3d6c6612",
     "url": "/portfolio/static/media/school-logo.912db7a6.png"
+  },
+  {
+    "revision": "43574bd1bc226abae5ac50eeab160820",
+    "url": "/portfolio/static/media/to-do-list.43574bd1.png"
+  },
+  {
+    "revision": "c49331eebab84bf8ffe48f096556785b",
+    "url": "/portfolio/static/media/weather.c49331ee.png"
   }
 ]);
