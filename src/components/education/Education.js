@@ -11,21 +11,18 @@ function Education() {
         <hr />
       </div>
       <article>
-        <a
-          href="https://www.apsvaranasi.org/webpage/index.aspx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="http://mnit.ac.in/" target="_blank" rel="noopener noreferrer">
           <div className="education">
             <div className="institute-icon">
-              <img src={logo} alt="" />
+              <img src={mnit} alt="" />
             </div>
             <div className="education-detail">
-              <h3>Matriculation (10th)</h3>
-              <h5>Army Public School Varanasi</h5>
+              <h3>B.Tech(CSE)</h3>
+              <h5>MNIT Jaipur</h5>
             </div>
           </div>
         </a>
+
         <a
           href="https://www.apsvaranasi.org/webpage/index.aspx"
           target="_blank"
@@ -41,14 +38,18 @@ function Education() {
             </div>
           </div>
         </a>
-        <a href="http://mnit.ac.in/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.apsvaranasi.org/webpage/index.aspx"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="education">
             <div className="institute-icon">
-              <img src={mnit} alt="" />
+              <img src={logo} alt="" />
             </div>
             <div className="education-detail">
-              <h3>B.Tech(CSE)</h3>
-              <h5>MNIT Jaipur</h5>
+              <h3>Matriculation (10th)</h3>
+              <h5>Army Public School Varanasi</h5>
             </div>
           </div>
         </a>
