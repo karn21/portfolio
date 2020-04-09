@@ -15,7 +15,7 @@ header {
 
 .avatar-container {
   text-align: center;
-
+  align-items: center;
   img {
     height: 15rem;
     border-radius: 50%;
@@ -51,6 +51,51 @@ header {
     font-weight: 100;
     text-transform: capitalize;
     margin: 2rem auto;
+  }
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 99;
+  border: 0.1rem solid #eee;
+  outline: none;
+  background-color: $primaryColor;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.5rem #adadad;
+  transition: all 0.3s linear;
+  i {
+    padding: 0.5rem;
+  }
+}
+
+#topBtn:hover {
+  background-color: $hoverColor;
+  box-shadow: 0.2rem 0.2rem 0.5rem #858585;
+}
+
+.resume-btn {
+  display: block;
+  margin-top: 2rem;
+
+  button {
+    background-color: #fbc531;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: #e1b12c;
+    }
+    &:focus {
+      outline: none;
+    }
   }
 }
 

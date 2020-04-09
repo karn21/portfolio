@@ -53,12 +53,12 @@ body {
   background-color: $primaryColor;
   margin: 0.2rem;
   cursor: pointer;
-  box-shadow: 0.2rem 0.2rem 1rem #e5e5e5;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(87, 88, 187, 0.6);
   transition: all 0.3s linear;
   color: #fff;
   &:hover {
     background-color: $hoverColor;
-    box-shadow: 0.2rem 0.2rem 1rem #c9c9c9;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(62, 64, 165, 0.6);
   }
   &:focus {
     outline: none;
@@ -73,13 +73,13 @@ body {
   border: 0.1rem solid $primaryColor;
   margin: 0.2rem;
   cursor: pointer;
-  box-shadow: 0.2rem 0.2rem 1rem #e5e5e5;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(87, 88, 187, 0.6);
   transition: all 0.3s linear;
   &:hover {
     color: #fff;
     background-color: $hoverColor;
     border-color: $hoverColor;
-    box-shadow: 0.2rem 0.2rem 1rem #c9c9c9;
+    box-shadow: 0.2rem 0.2rem 0.5rem rgba(62, 64, 165, 0.6);
   }
   &:focus {
     outline: none;
