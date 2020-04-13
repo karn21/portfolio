@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "./components/navbar/Navbar";
+import About from "./components/about/About";
 import Header from "./components/header/Header";
 import Education from "./components/education/Education";
 import Skills from "./components/skills/Skills";
@@ -11,6 +12,7 @@ export class App extends Component {
       <React.Fragment>
         <Navbar></Navbar>
         <Header></Header>
+        <About></About>
         <Education></Education>
         <Skills></Skills>
         <Works></Works>

@@ -1,0 +1,67 @@
+@import "../../index.scss";
+
+.bio {
+  display: block;
+  margin: 1.8rem;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  letter-spacing: 0.08rem;
+  word-spacing: 0.2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  border: 0.1rem solid #e5e5e5;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0rem 2rem #c5c5c5;
+  transition: all 0.3s linear;
+  h3 {
+    margin-bottom: 1rem;
+  }
+  &:hover {
+    box-shadow: 0rem 0rem 2rem #a5a5a5;
+  }
+  a {
+    color: $primaryColor;
+  }
+}
+
+.basic {
+  margin-top: 2rem;
+  vertical-align: top;
+  h3 {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .bio {
+    margin: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .basic {
+    margin: 0 auto;
+  }
+  .about-me {
+    margin: 0 auto;
+  }
+  .bio {
+    font-size: 1rem;
+    margin: 0 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bio {
+    margin: 0 8rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .bio {
+    margin: 0 10rem;
+  }
+}
