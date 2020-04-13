@@ -26,23 +26,38 @@ export class Header extends Component {
 
   render() {
     return (
-      <header>
-        <section>
-          <div className="avatar-container">
-            <img
-              src="https://avatars1.githubusercontent.com/u/50626492?v=4"
-              alt=""
-            />
-            <div className="resume-btn">
+      <>
+        <header>
+          <section>
+            <div className="avatar-container">
+              <img
+                src="https://avatars1.githubusercontent.com/u/50626492?v=4"
+                alt=""
+              />
+            </div>
+            <h2>Karan Maurya</h2>
+            <h5>
+              CSE Undergraduate at MNIT Jaipur <br></br> Full Stack Developer
+            </h5>
+            <div className="section-btn">
+              <a href="#">
+                <button className="primary-btn">Contact</button>
+              </a>
               <a
                 href="https://drive.google.com/file/d/12fVtVpjtXtBie-S60-5ZxUxE9H4rdWq1/view?usp=drivesdk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button>View Resume</button>
+                <button className="primary-btn">View Resume</button>
               </a>
             </div>
-          </div>
+          </section>
+
+          <button onClick={this.topFunction} id="topBtn" title="Go to top">
+            <i className="fas fa-arrow-up"></i>
+          </button>
+        </header>
+        <section>
           <div className="bio">
             <h2>"Hello I am</h2>
             <h1> Karan Maurya!"</h1>I am a student of B.Tech[CSE] in NIT Jaipur.
@@ -52,10 +67,7 @@ export class Header extends Component {
             opportunities.
           </div>
         </section>
-        <button onClick={this.topFunction} id="topBtn" title="Go to top">
-          <i className="fas fa-arrow-up"></i>
-        </button>
-      </header>
+      </>
     );
   }
 }
