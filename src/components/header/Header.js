@@ -40,7 +40,7 @@ export class Header extends Component {
               CSE Undergraduate at MNIT Jaipur <br></br> Full Stack Developer
             </h5>
             <div className="section-btn">
-              <a href="#">
+              <a href="#contact">
                 <button className="primary-btn">Contact</button>
               </a>
               <a

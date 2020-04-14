@@ -1,7 +1,5 @@
 import React from "react";
 import "./education.scss";
-import logo from "./school-logo.png";
-import mnit from "./mnit-logo.png";
 
 function Education() {
   return (
@@ -11,48 +9,45 @@ function Education() {
         <hr />
       </div>
       <article>
-        <a href="http://mnit.ac.in/" target="_blank" rel="noopener noreferrer">
-          <div className="education">
-            <div className="institute-icon">
-              <img src={mnit} alt="" />
-            </div>
-            <div className="education-detail">
-              <h3>B.Tech(CSE)</h3>
-              <h5>MNIT Jaipur</h5>
-            </div>
+        <div className="education">
+          <div className="education-head">
+            <h5>2018 - present</h5>
+            <h2>Bachelor's Degree</h2>
           </div>
-        </a>
-
-        <a
-          href="https://www.apsvaranasi.org/webpage/index.aspx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="education">
-            <div className="institute-icon">
-              <img src={logo} alt="" />
-            </div>
-            <div className="education-detail">
-              <h3>Intermediate (12th)</h3>
-              <h5>Army Public School Varanasi</h5>
-            </div>
+          <div className="education-detail">
+            <h2>Bachelor of Technology in Computer Science and Engineering</h2>
+            <p>
+              <b>CGPA : 8.56</b>
+            </p>
+            <h3>Malaviya National Institute of Technology Jaipur</h3>
           </div>
-        </a>
-        <a
-          href="https://www.apsvaranasi.org/webpage/index.aspx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <div className="education">
-            <div className="institute-icon">
-              <img src={logo} alt="" />
-            </div>
-            <div className="education-detail">
-              <h3>Matriculation (10th)</h3>
-              <h5>Army Public School Varanasi</h5>
-            </div>
+        </div>
+        <div className="education">
+          <div className="education-head">
+            <h5>2017-2018</h5>
+            <h2>Intermediate</h2>
           </div>
-        </a>
+          <div className="education-detail">
+            <h2>Class 12th CBSE Board</h2>
+            <p>
+              <b>Percentage : 92.6%</b>
+            </p>
+            <h3>Army Public School Varanasi</h3>
+          </div>
+        </div>
+        <div className="education">
+          <div className="education-head">
+            <h5>2015-2016</h5>
+            <h2>Matriculation</h2>
+          </div>
+          <div className="education-detail">
+            <h2>Class 10th CBSE Board</h2>
+            <p>
+              <b>CGPA : 10</b>
+            </p>
+            <h3>Army Public School Varanasi</h3>
+          </div>
+        </div>
       </article>
     </section>
   );

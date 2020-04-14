@@ -11,11 +11,15 @@ function About() {
         </div>
         <div className="bio">
           <div className="about-me">
-            <h3>About Me</h3>I am a second year B.Tech[CSE] student in NIT
-            Jaipur. I am interested in Full Stack Development so I have been
-            working on Django and React, the best of both sides. I have ample
-            experience with these technologies and looking forward for some
-            great opportunities.
+            <h3>About Me</h3>
+            Hello! I am Karan Maurya, a second-year Undergraduate pursing B.Tech
+            in Computer Science and Engineering from MNIT Jaipur.
+            <p>
+              I am interested in Full Stack Development so I have been working
+              on Django and ReactJS, the best of both sides. I am exploring
+              these technologies and looking forward for some great
+              opportunities.
+            </p>
           </div>
           <div className="basic">
             <h3>Basic Information</h3>
