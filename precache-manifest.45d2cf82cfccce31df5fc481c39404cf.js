@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a1803aeeebe31e5acc3e920b09dc0a2",
+    "revision": "3be7f7de36c5eb5a494560152cbfbfa8",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a32ff40cfa98f0eaad3a",
-    "url": "/portfolio/static/css/main.ce0680b0.chunk.css"
+    "revision": "77480d37020b279856c8",
+    "url": "/portfolio/static/css/main.131fe62d.chunk.css"
   },
   {
-    "revision": "aa605eda848429352702",
-    "url": "/portfolio/static/js/2.15c8e3d5.chunk.js"
+    "revision": "0afdbfaeb6347b995d73",
+    "url": "/portfolio/static/js/2.99d86765.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.15c8e3d5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.99d86765.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a32ff40cfa98f0eaad3a",
-    "url": "/portfolio/static/js/main.16968825.chunk.js"
+    "revision": "77480d37020b279856c8",
+    "url": "/portfolio/static/js/main.1aa843c6.chunk.js"
   },
   {
     "revision": "1e74db4740f99c68a0bf",
@@ -52,10 +52,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/javascript.992f6eee.png"
   },
   {
-    "revision": "c7310d5137dbdf476e31e2ec7524b900",
-    "url": "/portfolio/static/media/mnit-logo.c7310d51.png"
-  },
-  {
     "revision": "9fb018d6f3f8641f12e22ede9706b9c8",
     "url": "/portfolio/static/media/portfolio.9fb018d6.png"
   },
@@ -66,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "552292545a5e6a12eca54182f907d22f",
     "url": "/portfolio/static/media/respo.55229254.png"
-  },
-  {
-    "revision": "912db7a62e8b914dfdd98bbc3d6c6612",
-    "url": "/portfolio/static/media/school-logo.912db7a6.png"
   },
   {
     "revision": "43574bd1bc226abae5ac50eeab160820",
