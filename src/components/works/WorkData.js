@@ -30,7 +30,7 @@ export const projects = [
     id: 3,
     title: "Weather Widget",
     description:
-      "A weather widget which fetches current weather using accuweather API. A simple project which asks for location and gives weather",
+      "A weather widget which fetches current weather using accuweather API. A simple project which asks for location and gives weather updates.",
     tags: ["react", "html", "css", "bootstrap"],
     github_link: "https://github.com/karn21/Weather-widget",
     cover_img: weather,

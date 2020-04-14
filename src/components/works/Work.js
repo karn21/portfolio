@@ -8,6 +8,7 @@ function Work(props) {
         <img src={project.cover_img} alt="" />
       </div>
       <div className="content">
+        <h3>{project.title}</h3>
         <div className="work-card-tags">
           {project.tags.map((tag) => (
             <span key={tag} className={`tag ${tag}-tag`}>
@@ -15,7 +16,6 @@ function Work(props) {
             </span>
           ))}
         </div>
-        <h3>{project.title}</h3>
         <p>{project.description}</p>
         <div className="work-card-footer">
           <a
