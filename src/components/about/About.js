@@ -14,6 +14,7 @@ function About() {
             <h3>About Me</h3>
             Hello! I am Karan Maurya, a second-year Undergraduate pursing B.Tech
             in Computer Science and Engineering from MNIT Jaipur.
+            <br />
             <p>
               I am interested in Full Stack Development so I have been working
               on Django and ReactJS, the best of both sides. I am exploring
