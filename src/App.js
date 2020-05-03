@@ -7,16 +7,16 @@ import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 export class App extends Component {
   get_view = () => {
-    let mainNavLinks = document.querySelectorAll("nav ul a");
+    var mainNavLinks = document.querySelectorAll("nav ul a");
     window.addEventListener("scroll", (event) => {
-      let fromTop = window.scrollY;
-
+      var fromTop = window.scrollY;
       mainNavLinks.forEach((link) => {
-        let section = document.querySelector(link.hash);
+        var section_id = link.getAttribute("section");
+        var section = document.getElementById(section_id);
 
         if (
           section.offsetTop <= fromTop &&
-          section.offsetTop + section.offsetHeight > fromTop
+          section.offsetTop + section.offsetHeight >= fromTop
         ) {
           link.classList.add("current");
         } else {

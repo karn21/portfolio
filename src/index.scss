@@ -15,12 +15,15 @@ $p-font-sizes: (
 }
 
 html {
+  overflow: auto;
+  height: 100%;
   font-size: 15px;
   scroll-behavior: smooth;
   font-weight: 400;
 }
 
 body {
+  height: 100%;
   font-family: "Lato", sans-serif;
 }
 

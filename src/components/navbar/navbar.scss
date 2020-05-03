@@ -15,6 +15,9 @@
 .nav-links {
   list-style-type: none;
   text-align: center;
+  a {
+    cursor: pointer;
+  }
 }
 
 .nav-link {
@@ -22,6 +25,7 @@
   padding: 0.4rem 0.2rem;
   transition: color 0.2s linear;
   font-size: 1rem;
+  margin: 0 1.2rem;
   &:hover {
     color: $primaryColor;
   }
@@ -40,10 +44,6 @@
 
 .nav-link:hover::after {
   width: 100%;
-}
-
-.current li {
-  color: $primaryColor;
 }
 
 .current .nav-link::after {
@@ -109,12 +109,15 @@
   .nav-links {
     font-size: 1rem;
   }
+  .nav-link {
+    margin: 0.3rem;
+  }
   .navbar {
     padding: 1rem;
     grid-template-columns: 2fr 3fr;
   }
   .sticky {
-    padding: 0.5rem 0.8rem 0.2rem;
+    padding: 0.3rem 0.8rem 0rem;
   }
   #menu {
     display: grid !important;

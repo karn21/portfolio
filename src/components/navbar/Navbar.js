@@ -18,13 +18,18 @@ export class Navbar extends Component {
     var navbar = document.getElementById("navbar");
     if (window.pageYOffset >= window.innerHeight / 10) {
       navbar.classList.add("sticky");
-      console.log("working");
     } else {
       navbar.classList.remove("sticky");
     }
   };
 
-  scrollToLink = () => {};
+  scrollTo = (pos) => {
+    this.showNav();
+    var el = document.getElementById(pos);
+    var offset = el.offsetTop;
+    window.focus();
+    window.scrollTo(0, offset);
+  };
 
   componentDidMount() {
     window.addEventListener("scroll", this.stickyNav);
@@ -69,19 +74,23 @@ export class Navbar extends Component {
 
         <ul className="nav-links">
           <div id="menu" style={{ display: "none" }}>
-            <a href="#about" onClick={this.showNav}>
+            <a section="about" onClick={() => this.scrollTo("about")}>
               <li className="nav-link">About</li>
             </a>
-            <a href="#education" onClick={this.showNav}>
+            <a section="education" onClick={() => this.scrollTo("education")}>
               <li className="nav-link">Education</li>
             </a>
-            <a href="#skills" onClick={this.showNav}>
+            <a section="skills" onClick={() => this.scrollTo("skills")}>
               <li className="nav-link">Skills</li>
             </a>
-            <a href="#works" onClick={this.showNav}>
+            <a section="works" onClick={() => this.scrollTo("works")}>
               <li className="nav-link">My Works</li>
             </a>
-            <a href="#contact" onClick={this.showNav}>
+            <a
+              section="contact"
+              id="con"
+              onClick={() => this.scrollTo("contact")}
+            >
               <li className="nav-link">Contact</li>
             </a>
           </div>
