@@ -6,9 +6,6 @@ export class Navbar extends Component {
     showMenu: false,
   };
   showNav = () => {
-    // this.setState({
-    //   showMenu: !this.state.showMenu,
-    // });
     var menu = document.getElementById("menu");
     if (menu.style.display === "none") {
       menu.style.display = "grid";
@@ -16,6 +13,22 @@ export class Navbar extends Component {
       menu.style.display = "none";
     }
   };
+
+  stickyNav = () => {
+    var navbar = document.getElementById("navbar");
+    if (window.pageYOffset >= window.innerHeight / 10) {
+      navbar.classList.add("sticky");
+      console.log("working");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  };
+
+  scrollToLink = () => {};
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.stickyNav);
+  }
 
   render() {
     return (
@@ -56,19 +69,19 @@ export class Navbar extends Component {
 
         <ul className="nav-links">
           <div id="menu" style={{ display: "none" }}>
-            <a href="#about">
+            <a href="#about" onClick={this.showNav}>
               <li className="nav-link">About</li>
             </a>
-            <a href="#education">
+            <a href="#education" onClick={this.showNav}>
               <li className="nav-link">Education</li>
             </a>
-            <a href="#skills">
+            <a href="#skills" onClick={this.showNav}>
               <li className="nav-link">Skills</li>
             </a>
-            <a href="#works">
+            <a href="#works" onClick={this.showNav}>
               <li className="nav-link">My Works</li>
             </a>
-            <a href="#contact">
+            <a href="#contact" onClick={this.showNav}>
               <li className="nav-link">Contact</li>
             </a>
           </div>

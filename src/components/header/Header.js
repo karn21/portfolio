@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Navbar from "../navbar/Navbar";
 import "./header.scss";
 
 export class Header extends Component {
@@ -28,7 +29,8 @@ export class Header extends Component {
     return (
       <>
         <header>
-          <section>
+          <Navbar></Navbar>
+          <section style={{ paddingTop: "1rem" }}>
             <div className="avatar-container">
               <img
                 src="https://avatars1.githubusercontent.com/u/50626492?v=4"
