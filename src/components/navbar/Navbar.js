@@ -28,7 +28,7 @@ export class Navbar extends Component {
     var el = document.getElementById(pos);
     var offset = el.offsetTop;
     window.focus();
-    window.scrollTo(0, offset);
+    window.scrollTo(0, offset - 20);
   };
 
   componentDidMount() {
