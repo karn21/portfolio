@@ -4,17 +4,18 @@ import colaboard from "./img/colaboard.png";
 import respo from "./img/respo.png";
 import portfolio from "./img/portfolio.png";
 import card from "./img/card.png";
+import recepies from "./img/recepies.png";
 
 export const projects = [
   {
     id: 1,
-    title: "To Do List",
+    title: "Lockdown Recepies",
     description:
-      "A simple to do list project made as a personal project. All basic functionalities for any to do list.",
+      "A recepie scrapper web based application built using spoonacular API. Now make whatever you want with just a simple search.",
     tags: ["react", "html", "css", "bootstrap"],
-    github_link: "https://github.com/karn21/to-do-list",
-    cover_img: todolist,
-    project_link: "https://to-do-wonder.netlify.com/",
+    github_link: "https://github.com/karn21/recepies-project",
+    cover_img: recepies,
+    project_link: "https://lockdown-recepies.netlify.app/",
   },
   {
     id: 2,
@@ -65,5 +66,15 @@ export const projects = [
     github_link: "https://github.com/karn21/github-card",
     cover_img: card,
     project_link: "https://github-profile-card.netlify.com/",
+  },
+  {
+    id: 7,
+    title: "To Do List",
+    description:
+      "A simple to do list project made as a personal project. All basic functionalities for any to do list.",
+    tags: ["react", "html", "css", "bootstrap"],
+    github_link: "https://github.com/karn21/to-do-list",
+    cover_img: todolist,
+    project_link: "https://to-do-wonder.netlify.com/",
   },
 ];
