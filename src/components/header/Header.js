@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../navbar/Navbar";
 import "./header.scss";
+import logo from "./logo.svg";
 
 export class Header extends Component {
   componentDidMount() {

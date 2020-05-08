@@ -4,16 +4,18 @@
   background-color: #f8f8f8;
   padding-bottom: 3rem;
   margin-bottom: 0;
-  article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+  h3 {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-weight: 400;
   }
 }
 
 .contacts {
-  margin: 0 5rem;
+  margin: 0 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .contact {
@@ -32,6 +34,9 @@
     }
     &:hover .fa-instagram {
       color: #f77737;
+    }
+    &:hover .fa-linkedin {
+      color: #0077b5;
     }
     i {
       transition: all 0.2s linear;
@@ -52,5 +57,11 @@
     font-size: 1rem;
     padding: 0.8rem;
     font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .contacts {
+    margin: 0 5rem;
   }
 }
