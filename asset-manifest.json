@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.10616f1f.chunk.css",
-    "main.js": "/portfolio/static/js/main.33c0c433.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.33c0c433.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bb485b83.chunk.css",
+    "main.js": "/portfolio/static/js/main.2950a49a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2950a49a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
     "static/js/2.fb79d5f4.chunk.js": "/portfolio/static/js/2.fb79d5f4.chunk.js",
     "static/js/2.fb79d5f4.chunk.js.map": "/portfolio/static/js/2.fb79d5f4.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.525f90494090c5cb266ca7038ee304db.js": "/portfolio/precache-manifest.525f90494090c5cb266ca7038ee304db.js",
+    "precache-manifest.bb7afade6cc3a785ad884e005af92f23.js": "/portfolio/precache-manifest.bb7afade6cc3a785ad884e005af92f23.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.10616f1f.chunk.css.map": "/portfolio/static/css/main.10616f1f.chunk.css.map",
+    "static/css/main.bb485b83.chunk.css.map": "/portfolio/static/css/main.bb485b83.chunk.css.map",
     "static/js/2.fb79d5f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fb79d5f4.chunk.js.LICENSE.txt",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.9781c375.png",
     "static/media/card.png": "/portfolio/static/media/card.a3d0dc08.png",
@@ -19,6 +19,7 @@
     "static/media/header.scss": "/portfolio/static/media/header.5f835129.jpg",
     "static/media/html.png": "/portfolio/static/media/html.3c5c603f.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.992f6eee.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.57488216.svg",
     "static/media/portfolio.png": "/portfolio/static/media/portfolio.9fb018d6.png",
     "static/media/react.png": "/portfolio/static/media/react.e699ace5.png",
     "static/media/recepies.png": "/portfolio/static/media/recepies.495a9d9a.png",
@@ -29,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
     "static/js/2.fb79d5f4.chunk.js",
-    "static/css/main.10616f1f.chunk.css",
-    "static/js/main.33c0c433.chunk.js"
+    "static/css/main.bb485b83.chunk.css",
+    "static/js/main.2950a49a.chunk.js"
   ]
 }
