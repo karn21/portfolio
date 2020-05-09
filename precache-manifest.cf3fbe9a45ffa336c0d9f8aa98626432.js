@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e1a916d040fdff16bc7baac8516c55f",
+    "revision": "3b3bef8e4523857c91aac230a0120db2",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a9fc0e624807452ed887",
+    "revision": "b34826da10237f8418b6",
     "url": "/portfolio/static/css/main.cb1ac5d4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.b50960e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a9fc0e624807452ed887",
-    "url": "/portfolio/static/js/main.d1cf7018.chunk.js"
+    "revision": "b34826da10237f8418b6",
+    "url": "/portfolio/static/js/main.e8b90e6d.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bootstrap.9781c375.png"
   },
   {
-    "revision": "a3d0dc0868de340e7c2bf78d372cbb12",
-    "url": "/portfolio/static/media/card.a3d0dc08.png"
+    "revision": "8932591cfea6d932cce90b58b8a82f42",
+    "url": "/portfolio/static/media/card.8932591c.png"
   },
   {
-    "revision": "25c7e869d2d756737bd5a48125671c38",
-    "url": "/portfolio/static/media/colaboard.25c7e869.png"
+    "revision": "ff0bc929e24ea2d00ca448feff5459da",
+    "url": "/portfolio/static/media/colaboard.ff0bc929.png"
   },
   {
     "revision": "2a2874375cb281cf15fc4228cab774ab",
@@ -72,8 +72,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/logo.57488216.svg"
   },
   {
-    "revision": "9fb018d6f3f8641f12e22ede9706b9c8",
-    "url": "/portfolio/static/media/portfolio.9fb018d6.png"
+    "revision": "4c3b84902206d19f445c2c720b0c43a9",
+    "url": "/portfolio/static/media/portfolio.4c3b8490.png"
   },
   {
     "revision": "e2f7de8b1d662f52c7409059ac845efb",
@@ -84,19 +84,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/react.e699ace5.png"
   },
   {
-    "revision": "495a9d9a5b2736e1acbe8567ab223633",
-    "url": "/portfolio/static/media/recepies.495a9d9a.png"
+    "revision": "e7ff826e4baab5f7a123f79ce3f0fc83",
+    "url": "/portfolio/static/media/recepies.e7ff826e.png"
   },
   {
-    "revision": "552292545a5e6a12eca54182f907d22f",
-    "url": "/portfolio/static/media/respo.55229254.png"
+    "revision": "9c1ad8297022db5578dfa31a3d8dcfb7",
+    "url": "/portfolio/static/media/respo.9c1ad829.png"
   },
   {
-    "revision": "43574bd1bc226abae5ac50eeab160820",
-    "url": "/portfolio/static/media/to-do-list.43574bd1.png"
-  },
-  {
-    "revision": "c49331eebab84bf8ffe48f096556785b",
-    "url": "/portfolio/static/media/weather.c49331ee.png"
+    "revision": "55207b95c5d8f23ee59c852f6a442343",
+    "url": "/portfolio/static/media/weather.55207b95.png"
   }
 ]);
