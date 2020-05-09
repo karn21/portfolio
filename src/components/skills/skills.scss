@@ -4,7 +4,29 @@
   background-color: #f8f8f8;
   article {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.description {
+  display: grid;
+  align-items: center;
+  margin: 0 8vw;
+  padding-bottom: 3rem;
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+    word-spacing: 0.3rem;
+    line-height: 150%;
+    color: rgb(71, 71, 71);
+  }
+}
+
+.svg-container {
+  margin: 2rem auto;
+  img {
+    width: 9rem;
   }
 }
 
@@ -17,28 +39,29 @@
     }
   }
 }
+
 .img-container {
   cursor: pointer;
   text-align: center;
   img {
-    height: 6rem;
+    height: 4rem;
     transition: all 0.2s linear;
   }
 }
 .label {
   text-align: center;
   cursor: pointer;
-  text-transform: uppercase;
   h5 {
     font-size: 1rem;
     padding: 0.8rem;
+    text-transform: uppercase;
   }
 }
 
 @media screen and (min-width: 640px) {
   #skills {
     article {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 }
@@ -46,7 +69,14 @@
 @media screen and (min-width: 860px) {
   #skills {
     article {
-      margin: auto 6rem;
+      margin: auto 12vw;
     }
+  }
+  .description {
+    grid-template-columns: 1fr 2fr;
+    margin: 0 12vw;
+  }
+  .svg-container {
+    margin: 0 auto;
   }
 }

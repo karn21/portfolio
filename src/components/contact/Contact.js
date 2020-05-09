@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.scss";
+import contact from "./communication.svg";
 
 function Skill() {
   return (
@@ -8,10 +9,19 @@ function Skill() {
         <h2>Contact</h2>
         <hr />
       </div>
-      <h3>
-        Thanks for sticking to the very end. If you want to grab a cup of coffee
-        with me just reach me out on any of these mediums.
-      </h3>
+      <div className="description">
+        <div className="svg-container">
+          <img src={contact} />
+        </div>
+
+        <h3>
+          Thanks for sticking to the very end. If you liked my work and want to
+          provide any feedback or if you have an idea feel free to discuss with
+          me. Want to grab a cup of coffee with me? Just reach me out through
+          any of these mediums.
+        </h3>
+      </div>
+
       <div className="contacts">
         <div className="contact">
           <a
