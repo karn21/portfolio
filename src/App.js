@@ -15,8 +15,8 @@ export class App extends Component {
         var section = document.getElementById(section_id);
 
         if (
-          section.offsetTop <= fromTop + 50 &&
-          section.offsetTop + section.offsetHeight >= fromTop + 50
+          section.offsetTop <= fromTop + 150 &&
+          section.offsetTop + section.offsetHeight >= fromTop + 150
         ) {
           link.classList.add("current");
         } else {

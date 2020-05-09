@@ -16,7 +16,7 @@ function Skill() {
 
         <h3>
           Thanks for sticking to the very end. If you liked my work and want to
-          provide any feedback or if you have an idea feel free to discuss with
+          provide any feedback or if you have an ideas feel free to discuss with
           me. Want to grab a cup of coffee with me? Just reach me out through
           any of these mediums.
         </h3>
@@ -76,6 +76,10 @@ function Skill() {
           </a>
         </div>
       </div>
+      <h4>
+        Made with <i className="fas fa-heart" style={{ color: "red" }}></i> by
+        Karan Maurya.
+      </h4>
     </section>
   );
 }
