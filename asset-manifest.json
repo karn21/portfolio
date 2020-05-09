@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.353944ec.chunk.css",
-    "main.js": "/portfolio/static/js/main.ad9ab448.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.ad9ab448.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a75207cf.chunk.css",
+    "main.js": "/portfolio/static/js/main.26084fa9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.26084fa9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
     "static/js/2.b50960e8.chunk.js": "/portfolio/static/js/2.b50960e8.chunk.js",
     "static/js/2.b50960e8.chunk.js.map": "/portfolio/static/js/2.b50960e8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c0214703cd6e2b5313d554fb36a0ec6b.js": "/portfolio/precache-manifest.c0214703cd6e2b5313d554fb36a0ec6b.js",
+    "precache-manifest.889d02977e9137950673b8adab86e0bd.js": "/portfolio/precache-manifest.889d02977e9137950673b8adab86e0bd.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.353944ec.chunk.css.map": "/portfolio/static/css/main.353944ec.chunk.css.map",
+    "static/css/main.a75207cf.chunk.css.map": "/portfolio/static/css/main.a75207cf.chunk.css.map",
     "static/js/2.b50960e8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b50960e8.chunk.js.LICENSE.txt",
     "static/media/avatar.svg": "/portfolio/static/media/avatar.11c940c8.svg",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.9781c375.png",
@@ -19,7 +19,6 @@
     "static/media/communication.svg": "/portfolio/static/media/communication.2a287437.svg",
     "static/media/cpp.png": "/portfolio/static/media/cpp.1970adc6.png",
     "static/media/css.png": "/portfolio/static/media/css.e5ed5939.png",
-    "static/media/header.scss": "/portfolio/static/media/header.5f835129.jpg",
     "static/media/html.png": "/portfolio/static/media/html.3c5c603f.png",
     "static/media/interface.svg": "/portfolio/static/media/interface.b7e9a21e.svg",
     "static/media/javascript.png": "/portfolio/static/media/javascript.992f6eee.png",
@@ -33,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.f4f2abbf.js",
     "static/js/2.b50960e8.chunk.js",
-    "static/css/main.353944ec.chunk.css",
-    "static/js/main.ad9ab448.chunk.js"
+    "static/css/main.a75207cf.chunk.css",
+    "static/js/main.26084fa9.chunk.js"
   ]
 }
