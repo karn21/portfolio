@@ -1,13 +1,9 @@
 @import "../../index.scss";
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("./header.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  padding: 2rem 1rem;
-  height: 100vh;
+  background-color: #310e68;
+  background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  height: 900px;
   section {
     text-align: center;
     margin: 0 auto;
@@ -41,7 +37,7 @@ header {
   img {
     height: 13rem;
     border-radius: 50%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     transform: scale(1);
     border: 0.2rem solid $primaryColor;
     transition: all 0.3s linear;
@@ -56,7 +52,7 @@ header {
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 4.5rem;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   animation: typewriter 2s steps(20) 1s 1 normal both,
     blinkTextCursor 700ms infinite;
@@ -103,10 +99,13 @@ header {
   box-shadow: 0.2rem 0.2rem 0.5rem #858585;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 640px) {
   header {
-    padding: 1rem 2rem;
+    height: 100vh;
   }
+}
+
+@media screen and (min-width: 800px) {
   .type {
     margin-top: 2rem;
   }

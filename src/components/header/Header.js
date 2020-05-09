@@ -28,7 +28,7 @@ export class Header extends Component {
   render() {
     return (
       <>
-        <header>
+        <header id="header">
           <Navbar></Navbar>
           <section style={{ paddingTop: "1rem" }}>
             <div className="avatar-container">

@@ -1,7 +1,7 @@
 @import "../../index.scss";
 
 .navbar {
-  padding: 0.5rem 0.2rem;
+  padding: 3rem 2rem;
   display: grid;
   grid-template-columns: 3fr 4fr 1fr;
   width: 100%;
@@ -112,7 +112,7 @@
     margin: 0.3rem;
   }
   .navbar {
-    padding: 1rem;
+    padding: 2rem 3rem;
     grid-template-columns: 2fr 3fr;
   }
   .sticky {
