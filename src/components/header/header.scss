@@ -1,8 +1,10 @@
 @import "../../index.scss";
 
 header {
-  background-color: #310e68;
-  background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  // background-color: #310e68;
+  // background-image: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("./header.jpg") center/cover fixed;
   height: 900px;
   section {
     text-align: center;
