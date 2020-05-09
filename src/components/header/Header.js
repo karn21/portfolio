@@ -38,7 +38,7 @@ export class Header extends Component {
                 alt=""
               />
             </div>
-            <h2>Karan Maurya</h2>
+            <h2 className="type">Karan Maurya</h2>
             <h5>
               CSE Undergraduate at MNIT Jaipur <br></br> Full Stack Developer
             </h5>

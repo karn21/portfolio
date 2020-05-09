@@ -12,7 +12,6 @@ header {
     text-align: center;
     margin: 0 auto;
     h2 {
-      margin-top: 5rem;
       font-size: 3rem;
       font-weight: 300;
       color: #ffffff;
@@ -52,6 +51,34 @@ header {
   }
 }
 
+.type {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  margin-top: 5rem;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  animation: typewriter 2s steps(20) 800ms 1 normal both,
+    blinkTextCursor 700ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20rem;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 #topBtn {
   display: none;
   position: fixed;
@@ -79,11 +106,9 @@ header {
 @media screen and (min-width: 800px) {
   header {
     padding: 1rem 2rem;
-    section {
-      h2 {
-        margin-top: 2rem;
-      }
-    }
+  }
+  .type {
+    margin-top: 2rem;
   }
   .avatar-container {
     img {
