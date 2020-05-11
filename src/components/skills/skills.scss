@@ -1,7 +1,6 @@
 @import "../../index.scss";
 
 #skills {
-  background-color: #f8f8f8;
   article {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -31,7 +30,7 @@
 }
 
 .skill {
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 0.5rem;
   &:hover .img-container {
     img {

@@ -5,6 +5,8 @@ import Education from "./components/education/Education";
 import Skills from "./components/skills/Skills";
 import Works from "./components/works/Works";
 import Contact from "./components/contact/Contact";
+import Timeline from "./components/timeline/Timeline";
+
 export class App extends Component {
   get_view = () => {
     var mainNavLinks = document.querySelectorAll("nav ul a");
@@ -41,6 +43,7 @@ export class App extends Component {
         <About></About>
         <Education></Education>
         <Skills></Skills>
+        <Timeline></Timeline>
         <Works></Works>
         <Contact></Contact>
       </React.Fragment>

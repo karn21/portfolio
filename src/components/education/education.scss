@@ -1,5 +1,9 @@
 @import "../../index.scss";
 
+#education {
+  background-color: #f8f8f8;
+  padding-bottom: 2rem;
+}
 .education {
   margin: 2rem;
   border-radius: 0.2rem;
@@ -13,7 +17,8 @@
 .education-head {
   color: #eee;
   background-color: $primaryColor;
-  padding: 1rem;
+  //
+  padding-top: 1rem;
   text-align: center;
   min-height: 10rem;
   vertical-align: middle;
@@ -64,6 +69,9 @@
     display: grid;
     margin: 2rem 5rem;
     grid-template-columns: 1fr 3fr;
+  }
+  .education-head {
+    padding-top: unset;
   }
 }
 

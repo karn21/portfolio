@@ -1,0 +1,58 @@
+@import "../../index.scss";
+
+#timeline {
+  background-color: #f8f8f8;
+  padding-bottom: 2rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+div.timeline ::after {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #d63031;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 2.5px);
+  z-index: 999;
+  border-radius: 0.3rem;
+}
+
+div .timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 50%;
+}
+
+div .timeline :nth-child(2n) {
+  align-self: flex-end;
+}
+
+.timeline-item {
+  align-self: flex-end;
+  width: 70%;
+  background-color: #fff;
+  text-align: right;
+  margin: 0.5rem 2rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 3px rgb(197, 197, 197);
+}
+
+div .timeline :nth-child(2n) .timeline-item {
+  align-self: flex-start;
+  text-align: unset;
+}
+
+@media screen and (min-width: 1024px) {
+  .timeline-item {
+    width: 60%;
+  }
+}
