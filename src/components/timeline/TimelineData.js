@@ -3,7 +3,7 @@ const data = [
     id: 1,
     title: "Hello world",
     description: "jwadkhf euahf ouglifrsergv hsery",
-    tag: "other",
+    tag: { text: "other", color: "#e67e22" },
     date: "Dec 2019",
     link: {
       text: "LInk text here",
