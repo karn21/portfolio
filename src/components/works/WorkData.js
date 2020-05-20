@@ -1,4 +1,4 @@
-import todolist from "./img/to-do-list.png";
+import taskmanager from "./img/task-manager.png";
 import weather from "./img/weather.png";
 import colaboard from "./img/colaboard.png";
 import respo from "./img/respo.png";
@@ -39,14 +39,15 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Responsive Web Page",
+    title: "Task Manager",
     description:
-      "A single page responsive website optimised for both mobile and laptop devices.",
-    tags: ["html", "css", "javascript"],
-    github_link: "https://github.com/karn21/responsive-web",
-    cover_img: respo,
-    project_link: "https://respo-web.netlify.com/",
+      "A simple task manager built using React in frontend and Django in backend. Created a simple CRUD API and used redux for state management. Django Token Authentication has been used for user authentication.",
+    tags: ["react","django", "html", "css", "bootstrap"],
+    github_link: "https://github.com/karn21/task-manager",
+    cover_img: taskmanager,
+    project_link: "https://tsk-manager-karn.herokuapp.com/",
   },
+  
   {
     id: 5,
     title: "Personal Portfolio",
@@ -69,12 +70,13 @@ export const projects = [
   },
   {
     id: 7,
-    title: "To Do List",
+    title: "Responsive Web Page",
     description:
-      "A simple to do list project made as a personal project. All basic functionalities for any to do list.",
-    tags: ["react", "html", "css", "bootstrap"],
-    github_link: "https://github.com/karn21/to-do-list",
-    cover_img: todolist,
-    project_link: "https://to-do-wonder.netlify.com/",
+      "A single page responsive website optimised for both mobile and laptop devices.",
+    tags: ["html", "css", "javascript"],
+    github_link: "https://github.com/karn21/responsive-web",
+    cover_img: respo,
+    project_link: "https://respo-web.netlify.com/",
   },
+  
 ];
