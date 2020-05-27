@@ -3,7 +3,7 @@ import weather from "./img/weather.png";
 import colaboard from "./img/colaboard.png";
 import respo from "./img/respo.png";
 import portfolio from "./img/portfolio.png";
-import card from "./img/card.png";
+import link from "./img/link.png";
 import recepies from "./img/recepies.png";
 
 export const projects = [
@@ -42,12 +42,12 @@ export const projects = [
     title: "Task Manager",
     description:
       "A simple task manager built using React in frontend and Django in backend. Created a simple CRUD API and used redux for state management. Django Token Authentication has been used for user authentication.",
-    tags: ["react","django", "html", "css", "bootstrap"],
+    tags: ["react", "django", "html", "css", "bootstrap"],
     github_link: "https://github.com/karn21/task-manager",
     cover_img: taskmanager,
     project_link: "https://tsk-manager-karn.herokuapp.com/",
   },
-  
+
   {
     id: 5,
     title: "Personal Portfolio",
@@ -60,13 +60,13 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Github Profile Card",
+    title: "Link Previewer App",
     description:
-      "A web app which generates your github profile card using github API. A simple project to get information for any github user.",
-    tags: ["html", "css", "javascript"],
-    github_link: "https://github.com/karn21/github-card",
-    cover_img: card,
-    project_link: "https://github-profile-card.netlify.com/",
+      "A web app which generates your preview of provided url. Built using Django and React. Used BeautifulSoup for scraping meta tags.",
+    tags: ["django", "react", "html", "css"],
+    github_link: "https://github.com/karn21/link-previewer",
+    cover_img: link,
+    project_link: "https://link-previewer.herokuapp.com/",
   },
   {
     id: 7,
@@ -78,5 +78,4 @@ export const projects = [
     cover_img: respo,
     project_link: "https://respo-web.netlify.com/",
   },
-  
 ];

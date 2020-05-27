@@ -15,9 +15,9 @@ function Skill() {
         </div>
         <h3>
           Thanks for sticking to the very end. If you liked my work and want to
-          provide any feedback or if you have an ideas feel free to discuss with
-          me. Want to grab a cup of coffee with me? Just reach me out through
-          any of these mediums.
+          provide any feedback or if you have any ideas feel free to discuss
+          with me. Want to grab a cup of coffee with me? Just reach me out
+          through any of these mediums.
         </h3>
       </div>
 

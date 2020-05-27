@@ -43,7 +43,6 @@ export class App extends Component {
         <About></About>
         <Education></Education>
         <Skills></Skills>
-        <Timeline></Timeline>
         <Works></Works>
         <Contact></Contact>
       </React.Fragment>

@@ -105,6 +105,7 @@ div .timeline :nth-child(2n) .timeline-item ::before {
     color: #fff;
     border-radius: 0.2rem;
     text-align: center;
+    vertical-align: middle;
   }
   .date {
     text-align: center;
