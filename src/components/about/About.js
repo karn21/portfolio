@@ -9,7 +9,7 @@ function About() {
           <h2>About</h2>
           <hr />
         </div>
-        <div className="bio">
+        <div className="bio animate__animated animate__fadeInUpBig">
           <div className="about-me">
             <h3>About Me</h3>
             Hello! I am Karan Maurya, a second-year Undergraduate pursing B.Tech

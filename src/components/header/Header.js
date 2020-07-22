@@ -46,7 +46,7 @@ export class Header extends Component {
                 <button className="primary-btn">Contact</button>
               </a>
               <a
-                href="https://drive.google.com/file/d/12fVtVpjtXtBie-S60-5ZxUxE9H4rdWq1/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1MlURNCw-LwYpdywhESsFuyFYaWcU2eLH/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >

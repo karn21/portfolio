@@ -16,11 +16,14 @@ function TimelineItem(props) {
         </div>
         <div className="timeline-title">{event.title}</div>
         <div className="timeline-desc">{event.description}</div>
-        <hr></hr>
         {event.link && (
-          <div className="timeline-link">
-            <a href={event.link.url}>{event.link.text}</a>
-          </div>
+          <>
+            <hr></hr>
+
+            <div className="timeline-link">
+              <a href={event.link.url}>{event.link.text}</a>
+            </div>
+          </>
         )}
       </div>
     </div>
