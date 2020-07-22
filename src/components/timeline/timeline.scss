@@ -43,7 +43,7 @@ div .timeline :nth-child(2n) {
   width: 80%;
   background-color: #fff;
   text-align: left;
-  margin: 0.5rem 2rem 0.5rem 1rem;
+  margin: 0.5rem 1.5rem 0.5rem 1.5rem;
   padding: 0.7rem;
   z-index: 99;
   box-shadow: 2px 2px 6px rgb(158, 158, 158);
@@ -57,8 +57,8 @@ div .timeline :nth-child(2n) {
 div .timeline :nth-child(2n) .timeline-item {
   align-self: flex-start;
   text-align: unset;
-  margin: 0.5rem 1rem 0.5rem 2rem;
-  box-shadow: -2px 2px 6px rgb(197, 197, 197);
+  margin: 0.5rem 1.5rem 0.5rem 1.5rem;
+  box-shadow: -2px 2px 6px rgb(158, 158, 158);
 }
 
 .timeline-item ::after {
@@ -68,14 +68,14 @@ div .timeline :nth-child(2n) .timeline-item {
   background-color: #fff;
   position: absolute;
   top: calc(50% - 0.5rem);
-  right: -2.75rem;
+  right: -2.3rem;
   z-index: 1;
   border-radius: 50%;
   border: 0.25rem solid $hoverColor;
 }
 
 div .timeline :nth-child(2n) .timeline-item ::after {
-  left: -2.75rem;
+  left: -2.3rem;
 }
 
 .timeline-item ::before {
@@ -102,7 +102,6 @@ div .timeline :nth-child(2n) .timeline-item ::before {
   .timeline-tag {
     text-transform: uppercase;
     padding: 0.3rem;
-
     color: #fff;
     border-radius: 0.1rem;
     text-align: center;
@@ -116,11 +115,13 @@ div .timeline :nth-child(2n) .timeline-item ::before {
 }
 
 .timeline-title {
+  text-align: center;
   text-decoration: underline;
   font-size: 1.1rem;
   font-weight: 400;
   text-transform: capitalize;
-  margin-top: 0.8rem;
+  margin-top: 0.2rem;
+  line-height: 1.5rem;
   word-spacing: 0.2rem;
 }
 
@@ -128,7 +129,7 @@ div .timeline :nth-child(2n) .timeline-item ::before {
   padding-top: 0.5rem;
   word-spacing: 0.1rem;
   letter-spacing: 0.05rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   font-size: 0.9rem;
 }
 
@@ -145,6 +146,26 @@ div .timeline :nth-child(2n) .timeline-item ::before {
 }
 
 @media screen and (min-width: 640px) {
+  .timeline-item {
+    margin: 0.5rem 2rem 0.5rem 1rem;
+  }
+
+  div .timeline :nth-child(2n) .timeline-item {
+    margin: 0.5rem 1rem 0.5rem 2rem;
+  }
+
+  .timeline-item ::after {
+    right: -2.75rem;
+  }
+
+  div .timeline :nth-child(2n) .timeline-item ::after {
+    left: -2.75rem;
+  }
+
+  .timeline-title {
+    text-align: unset;
+  }
+
   .timeline-header {
     display: grid;
     grid-template-columns: 1fr 1fr;
