@@ -12,7 +12,7 @@ function About() {
         <div className="bio animate__animated animate__fadeInUpBig">
           <div className="about-me">
             <h3>About Me</h3>
-            Hello! I am Karan Maurya, a second-year Undergraduate pursing B.Tech
+            Hello! I am Karan Maurya, a third-year Undergraduate student pursing B.Tech
             in Computer Science and Engineering from MNIT Jaipur.
             <br />
             <p>

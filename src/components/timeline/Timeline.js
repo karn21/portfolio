@@ -15,7 +15,7 @@ export class Timeline extends Component {
           <hr />
         </div>
         <div className="timeline">
-          {this.state.events.map((event) => (
+          {this.state.events.reverse().map((event) => (
             <TimelineItem event={event} key={event.id}></TimelineItem>
           ))}
         </div>
