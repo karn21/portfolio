@@ -21,7 +21,13 @@ function TimelineItem(props) {
             <hr></hr>
 
             <div className="timeline-link">
-              <a href={event.link.url}>{event.link.text}</a>
+              <a
+                href={event.link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {event.link.text}
+              </a>
             </div>
           </>
         )}

@@ -12,14 +12,14 @@ function About() {
         <div className="bio animate__animated animate__fadeInUpBig">
           <div className="about-me">
             <h3>About Me</h3>
-            Hello! I am Karan Maurya, a second-year Undergraduate pursing B.Tech
-            in Computer Science and Engineering from MNIT Jaipur.
+            Hello! I am Karan Maurya, an Undergraduate student pursing B.Tech in
+            Computer Science and Engineering from MNIT Jaipur.
             <br />
             <p>
-              I am interested in Full Stack Development so I have been working
-              on Django and ReactJS, the best of both sides. I am exploring
-              these technologies and looking forward for some great
-              opportunities.
+              I am into Full Stack Development so I have been working on Django
+              and ReactJS, the best of both sides. I am exploring these
+              technologies and looking forward for some great opportunities. I
+              am open to new challenges and projects. Feel free to hit me up.
             </p>
           </div>
           <div className="basic">
@@ -30,7 +30,7 @@ function About() {
                   <td>
                     <b style={{ fontSize: "0.8rem" }}>AGE:</b>
                   </td>
-                  <td style={{ paddingLeft: "0.5rem" }}>20</td>
+                  <td style={{ paddingLeft: "0.5rem" }}>21</td>
                 </tr>
                 <tr>
                   <td>
