@@ -41,7 +41,7 @@ export class Header extends Component {
             <h5>
               CSE Undergraduate at MNIT Jaipur <br></br> Full Stack Developer
             </h5>
-            <div className="section-btn">
+            {/* <div className="section-btn">
               <a href="#contact">
                 <button className="primary-btn">Contact</button>
               </a>
@@ -52,7 +52,7 @@ export class Header extends Component {
               >
                 <button className="primary-btn">View Resume</button>
               </a>
-            </div>
+            </div> */}
           </section>
 
           <button onClick={this.topFunction} id="topBtn" title="Go to top">

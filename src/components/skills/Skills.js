@@ -14,14 +14,15 @@ import python from "./python.svg";
 export class Skills extends Component {
   state = {
     skills: [
+      { skill: "python", img: python },
+      { skill: "javascript", img: javascript },
+      { skill: "react", img: react },
+      { skill: "django", img: django },
+      { skill: "react-native", img: react },
+      { skill: "c++", img: cpp },
       { skill: "html", img: html },
       { skill: "css", img: css },
       { skill: "bootstrap", img: bootstrap },
-      { skill: "react", img: react },
-      { skill: "django", img: django },
-      { skill: "javascript", img: javascript },
-      { skill: "c++", img: cpp },
-      { skill: "python", img: python },
     ],
   };
   render() {
